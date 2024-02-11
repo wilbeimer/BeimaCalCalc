@@ -21,8 +21,8 @@ struct FoodRow: View {
                         Text(food.name).bold()
                         
                         VStack(alignment: .leading) {
+                            Text("Calories: \(Int(food.calories))")
                             Text("Protein: \(Int(food.protein))")
-                            Text("Carbs: \(Int(food.carbohydrates))")
                             
                         }
                         .font(.caption)

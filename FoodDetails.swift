@@ -6,13 +6,23 @@
 //
 
 import SwiftUI
+import Foundation
 
 struct FoodDetails: View {
+    
+    @Binding var foodsEaten: [Food]
+    @Binding var usedCals: Float
+    
+    var food: Food
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Spacer()
+            
+            Button(action: {addNew(foodsEaten: &foodsEaten, usedCals: &usedCals, food: food)}, label: {
+                Text("Add")
+            })
+            
+        }
     }
-}
-
-#Preview {
-    FoodDetails()
 }

@@ -9,6 +9,9 @@ import SwiftUI
 
 struct FoodSearch: View {
     @EnvironmentObject var foods: Foods
+    
+    @Binding var foodsEaten: [Food]
+    @Binding var usedCals: Float
 
     var body: some View {
         NavigationView{
@@ -39,7 +42,7 @@ struct FoodSearch: View {
                             ForEach(foods.filteredFoodList) { food in
                                 
                                 NavigationLink{
-                                    FoodDetails()
+                                    FoodDetails(foodsEaten: $foodsEaten, usedCals: $usedCals, food: food)
                                 } label: {
                                     FoodRow(food: food)
                                         .padding(.horizontal)
