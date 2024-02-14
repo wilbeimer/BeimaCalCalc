@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct Food: Codable, Identifiable{
+struct Food: Codable, Identifiable, Equatable{
     
-    let id: Int
+    var id: Int
     let name: String
-    let calories: Float
+    var calories: Float
     let protein: Float
     let carbohydrates: Float
     let fat: Float

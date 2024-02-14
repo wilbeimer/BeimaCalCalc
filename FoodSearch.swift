@@ -42,7 +42,7 @@ struct FoodSearch: View {
                             ForEach(foods.filteredFoodList) { food in
                                 
                                 NavigationLink{
-                                    FoodDetails(foodsEaten: $foodsEaten, usedCals: $usedCals, food: food)
+                                    FoodDetails(foodsEaten: $foodsEaten, usedCals: $usedCals, food: food, add: true)
                                 } label: {
                                     FoodRow(food: food)
                                         .padding(.horizontal)

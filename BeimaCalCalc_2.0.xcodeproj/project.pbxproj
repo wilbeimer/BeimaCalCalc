@@ -21,6 +21,7 @@
 		2196F8AC2B72EAF700C01377 /* FoodDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2196F8AB2B72EAF700C01377 /* FoodDetails.swift */; };
 		2196F8AE2B73083D00C01377 /* FoodSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2196F8AD2B73083D00C01377 /* FoodSearch.swift */; };
 		2196F8B02B73158100C01377 /* getBarLengths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2196F8AF2B73158100C01377 /* getBarLengths.swift */; };
+		2196F8B42B7A741400C01377 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2196F8B32B7A741400C01377 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		2196F8AB2B72EAF700C01377 /* FoodDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetails.swift; sourceTree = "<group>"; };
 		2196F8AD2B73083D00C01377 /* FoodSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSearch.swift; sourceTree = "<group>"; };
 		2196F8AF2B73158100C01377 /* getBarLengths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getBarLengths.swift; sourceTree = "<group>"; };
+		2196F8B32B7A741400C01377 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		21808A9B2B3D3ABB00A828ED = {
 			isa = PBXGroup;
 			children = (
+				2196F8B32B7A741400C01377 /* Settings.swift */,
 				2196F8AF2B73158100C01377 /* getBarLengths.swift */,
 				2196F8AD2B73083D00C01377 /* FoodSearch.swift */,
 				2196F8AB2B72EAF700C01377 /* FoodDetails.swift */,
@@ -285,6 +288,7 @@
 				21808AD42B3E06EA00A828ED /* Foods.swift in Sources */,
 				2196F8AE2B73083D00C01377 /* FoodSearch.swift in Sources */,
 				21808AA82B3D3ABB00A828ED /* BeimaCalCalc_2_0App.swift in Sources */,
+				2196F8B42B7A741400C01377 /* Settings.swift in Sources */,
 				2196F8AA2B71E4AE00C01377 /* FoodRow.swift in Sources */,
 				21808AD22B3E036900A828ED /* Food.swift in Sources */,
 			);

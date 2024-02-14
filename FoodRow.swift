@@ -13,9 +13,10 @@ struct FoodRow: View {
     var body: some View {
             VStack(alignment: .leading) {
                 HStack(alignment: .top) {
-                    Text("🍔")
+                    /*Text("🍔")
                         .font(.title)
                         .padding(.trailing, 12)
+                     */
                     
                     VStack(alignment: .leading) {
                         Text(food.name).bold()
