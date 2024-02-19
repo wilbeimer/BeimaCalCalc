@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		215439312B7FD261008545C2 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215439302B7FD261008545C2 /* PieChart.swift */; };
+		215439332B7FE53A008545C2 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215439322B7FE53A008545C2 /* File.swift */; };
 		21808AA82B3D3ABB00A828ED /* BeimaCalCalc_2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21808AA72B3D3ABB00A828ED /* BeimaCalCalc_2_0App.swift */; };
 		21808AAA2B3D3ABB00A828ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21808AA92B3D3ABB00A828ED /* ContentView.swift */; };
 		21808AAC2B3D3AC100A828ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21808AAB2B3D3AC100A828ED /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		215439302B7FD261008545C2 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		215439322B7FE53A008545C2 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		21808AA42B3D3ABB00A828ED /* BeimaCalCalc_2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeimaCalCalc_2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21808AA72B3D3ABB00A828ED /* BeimaCalCalc_2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeimaCalCalc_2_0App.swift; sourceTree = "<group>"; };
 		21808AA92B3D3ABB00A828ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 		21808A9B2B3D3ABB00A828ED = {
 			isa = PBXGroup;
 			children = (
+				215439322B7FE53A008545C2 /* File.swift */,
+				215439302B7FD261008545C2 /* PieChart.swift */,
 				2196F8B32B7A741400C01377 /* Settings.swift */,
 				2196F8AF2B73158100C01377 /* getBarLengths.swift */,
 				2196F8AD2B73083D00C01377 /* FoodSearch.swift */,
@@ -289,7 +295,9 @@
 				2196F8AE2B73083D00C01377 /* FoodSearch.swift in Sources */,
 				21808AA82B3D3ABB00A828ED /* BeimaCalCalc_2_0App.swift in Sources */,
 				2196F8B42B7A741400C01377 /* Settings.swift in Sources */,
+				215439312B7FD261008545C2 /* PieChart.swift in Sources */,
 				2196F8AA2B71E4AE00C01377 /* FoodRow.swift in Sources */,
+				215439332B7FE53A008545C2 /* File.swift in Sources */,
 				21808AD22B3E036900A828ED /* Food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

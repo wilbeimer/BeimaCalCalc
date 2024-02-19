@@ -12,9 +12,9 @@ struct Food: Codable, Identifiable, Equatable{
     var id: Int
     let name: String
     var calories: Float
-    let protein: Float
-    let carbohydrates: Float
-    let fat: Float
+    var protein: Float
+    var carbohydrates: Float
+    var fat: Float
     let description: String
     
     /*
